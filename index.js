@@ -46,7 +46,7 @@ const {
   const mode = config.MODE
   const online = config.ALWAYS_ONLINE
   const status = config.AUTO_STATUS_SEEN
-  const ownerNumber = ['923003588997']
+  const ownerNumber = ['94741185866']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -115,13 +115,13 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 𝐀𝐋𝐈-𝐌𝐃 𝐁𝐎𝐓👑*
+  let up = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 𝐌𝐄𝐓𝐇𝐔-𝐌𝐃 𝐁𝐎𝐓👑*
 *𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘!*
   
 *╭───━━━━───━━━━──┉┈⚆*
 *│• 𝐓𝐘𝐏𝐄 .𝐌𝐄𝐍𝐔 𝐓𝐎 𝐒𝐄𝐄 𝐋𝐈𝐒𝐓 •*
 *│• 𝐁𝐎𝐓 𝐀𝐌𝐀𝐙𝐈𝐍𝐆 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒 •*
-*│• 🌸𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : 𝐀ɭīī 𝐈ƞ̄x̷īīɖ𝛆̽*
+*│• 🌸𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : ꪶ᳆⃟🌹ʀͥᴇᷧᴀͫʟꪶ𝙼𝙴𝚃𝙷𝚄ˍ♔ˉ 🥹💗⁩*
 *│• ⏰𝐀𝐋𝐖𝐀𝐘𝐒 𝐎𝐍𝐋𝐈𝐍𝐄 : ${online}*
 *│• 📜𝐏𝐑𝐄𝐅𝐈𝐗 : ${prefix}*
 *│• 🪾𝐌𝐎𝐃𝐄 : ${mode}*
@@ -875,7 +875,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("ALI MD STARTED ✅");
+  res.send("METHU MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
